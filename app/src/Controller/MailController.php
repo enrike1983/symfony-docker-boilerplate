@@ -7,6 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
 
+#[Route('/api', name: 'api_')]
 final class MailController extends AbstractController
 {
     #[Route('/mail', name: 'app_mail')]
